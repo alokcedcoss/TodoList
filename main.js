@@ -19,7 +19,7 @@ $('#u').on('click', '#delete',function(){
     $(this).parent().remove();
 });
 $('#u').on('click', '#check',function(){
-    $(this).parent().appendTo("#com").html("<input type='checkbox' id='check'><span class='cssd'>"+a+"</span>");
+    $(this).parent().appendTo("#com").html("<input type='checkbox' id='check' checked ><span class='cssd'>"+a+"</span>");
 });
 $('#com').on('click', '#check',function(){
     $(this).parent().appendTo("#u").html("<input type='checkbox' id='check'><span class='cssd'>"+a+"</span><input type='button' id='edit' value='Edit'><input type='button' id='delete' value=Delete>");
